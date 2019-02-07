@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/logo.jpeg" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -13,6 +13,12 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/util.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/main.css">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -22,7 +28,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Eve's Hair Signature | Home</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -37,5 +43,41 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- app scripts load here -->
+    <script src="%PUBLIC_URL%/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/bootstrap/js/popper.js"></script>
+    <script src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="%PUBLIC_URL%/vendor/select2/select2.min.js"></script>
+
+    <script src="%PUBLIC_URL%/vendor/countdowntime/moment.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/countdowntime/moment-timezone.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/countdowntime/countdowntime.js"></script>
+    <script>
+        $('.cd100').countdown100({
+          /*Set Endtime here*/
+          /*Endtime must be > current time*/
+          endtimeYear: 0,
+          endtimeMonth: 0,
+          endtimeDate: 35,
+          endtimeHours: 18,
+          endtimeMinutes: 0,
+          endtimeSeconds: 0,
+          timeZone: "" 
+          // ex:  timeZone: "America/New_York"
+          //go to " http://momentjs.com/timezone/ " to get timezone
+        });
+    </script>
+
+    <script src="%PUBLIC_URL%/vendor/tilt/tilt.jquery.min.js"></script>
+    <script>
+      $('.js-tilt').tilt({
+        scale: 1.1
+      })
+    </script>
+
+    <script src="%PUBLIC_URL%/js/main.js"></script>
   </body>
 </html>
