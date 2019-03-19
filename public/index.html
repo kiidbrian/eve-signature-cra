@@ -13,12 +13,9 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/vendor/animate/animate.css">
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/vendor/select2/select2.min.css">
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/util.css">
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/master.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/override.css">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -31,6 +28,7 @@
     <title>Eve's Hair Signature | Home</title>
   </head>
   <body>
+    <script src="%PUBLIC_URL%/js/jquery/js/jquery.1.11.2.js"></script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -45,18 +43,31 @@
     -->
 
     <!-- app scripts load here -->
-    <script src="%PUBLIC_URL%/vendor/jquery/jquery-3.2.1.min.js"></script>
-    <script src="%PUBLIC_URL%/vendor/bootstrap/js/popper.js"></script>
-    <script src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.js"></script>
+    <script src="%PUBLIC_URL%/js/function.js"></script>
+    <script src="%PUBLIC_URL%/js/parallax.js"></script> 
+    <script src="%PUBLIC_URL%/js/scorll.js"></script> 
+    <script src="%PUBLIC_URL%/js/jquery.easing.min.js"></script> 
+    <script src="%PUBLIC_URL%/js/slick.js"></script> 
+    <script src="%PUBLIC_URL%/js/menu.js"></script> 
+    <script src="%PUBLIC_URL%/js/ios-timer.js"></script> 
+    <script src="%PUBLIC_URL%/js/jquery.fencybox.js"></script> 
+    <script src="%PUBLIC_URL%/js/jquery.portfolio.js"></script> 
+    <script src="%PUBLIC_URL%/js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="%PUBLIC_URL%/js/wow.js"></script>
+    <script src="%PUBLIC_URL%/js/jquery.validate.js"></script>
 
-    <script src="%PUBLIC_URL%/vendor/select2/select2.min.js"></script>
-
-    <script src="%PUBLIC_URL%/vendor/countdowntime/moment.min.js"></script>
-    <script src="%PUBLIC_URL%/vendor/countdowntime/moment-timezone.min.js"></script>
-    <script src="%PUBLIC_URL%/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-    <script src="%PUBLIC_URL%/vendor/countdowntime/countdowntime.js"></script>
-
-    <script src="%PUBLIC_URL%/vendor/tilt/tilt.jquery.min.js"></script>
-    <script src="%PUBLIC_URL%/js/main.js"></script>
+    <!-- REVOLUTION JS FILES --> 
+    <script  src="%PUBLIC_URL%/js/revoluation/jquery.themepunch.tools.min.js"></script> 
+    <script  src="%PUBLIC_URL%/js/revoluation/jquery.themepunch.revolution.min.js"></script> 
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+    (Load Extensions only on Local File Systems ! 
+    The following part can be removed on Server for On Demand Loading) --> 
+    <script  src="%PUBLIC_URL%/js/revoluation/revolution.extension.layeranimation.min.js"></script> 
+    <script  src="%PUBLIC_URL%/js/revoluation/revolution.extension.migration.min.js"></script> 
+    <script  src="%PUBLIC_URL%/js/revoluation/revolution.extension.navigation.min.js"></script> 
+    <script  src="%PUBLIC_URL%/js/revoluation/revolution.extension.parallax.min.js"></script> 
+    <script  src="%PUBLIC_URL%/js/revoluation/revolution.extension.slideanims.min.js"></script> 
+    <script  src="%PUBLIC_URL%/js/revoluation/revoluationfunction.js"></script> 
   </body>
 </html>
