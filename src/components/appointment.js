@@ -10,13 +10,14 @@ const Appointment = (props) => (
                     <div className="appoimentbg">
                         <div className="col-sm-12 col-md-9 col-lg-8">
                             <h2>make an appointment</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec.</p>
+                            <p>Before appointment please shampoo wash, condition and blow dry hair the day before or morning of appointment.
+                            Moisturizing scalp with hair oil is optional, preferably please dont. With the exception of natural/4c hair treat with conditioner.</p>
                         </div>
                         <div className="clearfix"></div>
                         <div className="appfrm">
                             <div id="SuccessMessage"></div>
                             <div id="ErrorMessage"></div>
-                            <form name="AppointmentFrm" id="AppointmentFrm" method="post">
+                            <form name="AppointmentFrm" id="AppointmentFrm" method="post" data-netlify="true">
                                 <div className="col-sm-12 col-md-8 col-lg-7 appfrmleft">
                                     <div className="form-group">
                                         <label>Name</label>

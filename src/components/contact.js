@@ -16,7 +16,7 @@ const Contact = (props) => (
                         </div>
                         <div className="social">
                             <p>121 King Street, Melbourne Victoria 3000 Australia</p>
-                            <span>Phone - +61 0 0000 0000s </span> <span>Email - <a href="mailto:info@websitec.com">info@blackair.com</a></span>
+                            <span>Phone - +1 (203) 715-6797 </span> <span><a href="mailto:info@evehairsignature.com">info@evehairsignature.com</a></span>
                             <div className="social-icon"> 
                                 <a href="index.html#" className="facebook"></a> 
                                 <a href="index.html#" className="twitter"></a> 
