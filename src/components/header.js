@@ -10,7 +10,7 @@ const Header = (props) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="logo page-scroll"><a href="index.html#pagetop"><img src={process.env.PUBLIC_URL + "/images/eve-black.jpg"} alt="logo" /></a></div>
+                                <div className="logo page-scroll"><a href="index.html#pagetop"><img style={{width:'58px'}} src={process.env.PUBLIC_URL + "/images/eve-black.jpg"} alt="logo" /></a></div>
                                 <div className="mm-toggle-wrap">
                                     <div className="mm-toggle"> <i className="icon-menu"><img src={process.env.PUBLIC_URL + "/images/menu-icon.png"} alt="Menu" /></i></div>
                                 </div>

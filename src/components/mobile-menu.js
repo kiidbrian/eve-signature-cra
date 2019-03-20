@@ -7,11 +7,11 @@ const MobileMenu = (props) => (
         <div id="overlay"></div>
         <div id="mobile-menu">
         <ul>
-            <li class="page-scroll"><a href="index.html#salon">The Salon</a></li>
-            <li class="page-scroll"><a href="index.html#ourteam">Meet our team</a></li>
-            <li class="page-scroll"><a href="index.html#services">Our Services</a></li>
-            <li class="page-scroll"><a href="index.html#gallery">portfolio</a></li>
-            <li class="page-scroll"><a href="index.html#promotions">Promotions</a></li>
+            <li className="page-scroll"><a href="index.html#salon">The Salon</a></li>
+            <li className="page-scroll"><a href="index.html#ourteam">Meet our team</a></li>
+            <li className="page-scroll"><a href="index.html#services">Our Services</a></li>
+            <li className="page-scroll"><a href="index.html#gallery">portfolio</a></li>
+            <li className="page-scroll"><a href="index.html#promotions">Promotions</a></li>
         </ul>
         </div>
     </React.Fragment>
