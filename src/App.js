@@ -3,6 +3,9 @@ import Header from '../src/components/header';
 import MobileMenu from './components/mobile-menu';
 import Slider from './components/slider';
 import Salon from './components/salon';
+import Services from './components/services';
+import Contact from './components/contact';
+import Appointment from './components/appointment';
 const $ = window.$;
 class App extends Component {
   render() {
@@ -13,6 +16,10 @@ class App extends Component {
           <Header />
           <Slider />
           <Salon />
+          <Services />
+          <Appointment />
+          <Contact />
+          <a href="index.html#" className="scrollup">Top</a>
         </div> 
       </React.Fragment>
     )

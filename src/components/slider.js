@@ -39,7 +39,7 @@ const Slider = (props) => (
                             <a className="right rev-rightarrow">Right</a>
                         </div>
                         <div className="titile-bg">
-                            <h1>The Hair Salon</h1>
+                            <h1></h1>
                         </div>
                         <div className="white-bg">
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>
