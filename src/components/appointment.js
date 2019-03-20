@@ -3,6 +3,7 @@ import React from 'react';
 
 // create a functional component
 const Appointment = (props) => (
+    <React.Fragment>
     <section id="appoinment" className="col-padtop wow fadeInUp">
         <div className="container">
             <div className="row">
@@ -71,6 +72,22 @@ const Appointment = (props) => (
             </div>
         </div>
   </section>
+
+
+  <section className="excellence wow fadeInUp">
+    <div id="parallax-2" className="parallax fixed fixed-desktop">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6 col-md-5 col-lg-5 pull-right col-pad5 bg-white">
+            <h2>Expression of Excellence</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus. Nullam non neque eros. Pellentesque nec vulputate eros. Integer scelerisque lorem id massa accumsan, ut faucibus ante suscipit. Nunc tincidunt et ligula vitae pharetra.</p>
+          </div>
+        </div>
+        <div className="clearfix"></div>
+      </div>
+    </div>
+  </section>
+  </React.Fragment>
 );
 
 export default Appointment;
