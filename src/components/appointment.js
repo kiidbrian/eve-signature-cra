@@ -18,6 +18,7 @@ const Appointment = (props) => (
                             <div id="SuccessMessage"></div>
                             <div id="ErrorMessage"></div>
                             <form name="AppointmentFrm" id="AppointmentFrm" method="post" data-netlify="true">
+                                <input type="hidden" name="form-name" value="AppointmentFrm" />
                                 <div className="col-sm-12 col-md-8 col-lg-7 appfrmleft">
                                     <div className="form-group">
                                         <label>Name</label>
