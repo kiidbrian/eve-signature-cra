@@ -294,7 +294,7 @@ header {
    #Make Appoinment div css 
   ========================================================================== */
 .appoimentbg {
-	background: url(../images/appoinment-bg.jpg) no-repeat fixed center top;
+	background: url(../images/good2.jpg) no-repeat fixed center top;
 	padding: 100px 70px 50px;
 	color: #fff;
 	width: 100%;
@@ -372,7 +372,7 @@ header {
   ========================================================================== */
 
 #parallax-2 {
-	background: url(../images/parallax-bg.jpg) 50% 0 no-repeat;
+	background: url(../images/stock_img.jpg) 50% 0 no-repeat;
 	height: 640px;
 }
 .parallax {

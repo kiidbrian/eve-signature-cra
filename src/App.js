@@ -6,7 +6,7 @@ import Salon from './components/salon';
 import Services from './components/services';
 import Contact from './components/contact';
 import Appointment from './components/appointment';
-const $ = window.$;
+
 class App extends Component {
   render() {
     return (

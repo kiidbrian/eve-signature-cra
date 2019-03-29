@@ -28,15 +28,11 @@ const Services = (props) => (
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Twist Braids</td>
-                                <td></td>
-                            </tr>
-                            <tr>
                                 <td>Box Braids</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Cornrow</td>
+                                <td>Cornrow Braids</td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -44,7 +40,23 @@ const Services = (props) => (
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Dread Locks</td>
+                                <td>Senegalese Twists</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Passion/Spring Twists</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Kinky Twist</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Crochet</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Bantu Knots</td>
                                 <td></td>
                             </tr>
                         </tbody>
@@ -54,10 +66,10 @@ const Services = (props) => (
                 <div className="row marbottom wow fadeInUp">
                     <div className="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayhide">
                         <div className="subtitle">
-                            <h2 className="titile col-xs-offset-2">CROCHET</h2>
+                            <h2 className="titile col-xs-offset-2">SEW INS</h2>
                         </div>
                         <div className="subtitle">
-                            <h2 className="color">CROCHET</h2>
+                            <h2 className="color">SEW INS</h2>
                         </div>
                         <img src={process.env.PUBLIC_URL+"/images/color.jpg"} className="img-responsive" alt="Colour" /> </div>
                         <div className="col-sm-12 col-md-5 col-lg-5 col-padright-none">
@@ -70,28 +82,37 @@ const Services = (props) => (
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td className="bigw">Crochet & Bantu knots.</td>
+                                        <td className="bigw">Hair Leave out</td>
                                         <td className="smallw"></td>
                                     </tr>
                                     <tr>
-                                        <td>Crochet</td>
-                                        <td></td>
-                                       
+                                        <td className="bigw">Full sew in</td>
+                                        <td className="smallw"></td>
                                     </tr>
-                                   
+                                    <tr>
+                                        <td className="bigw">Lace closure sew in</td>
+                                        <td className="smallw"></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="bigw">Pixie cut</td>
+                                        <td className="smallw"></td>
+                                    </tr><tr>
+                                        <td className="bigw">Custom Wigs</td>
+                                        <td className="smallw"></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
                         <div className="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayvisible">
                             <div className="subtitle">
-                                <h2 className="titile col-xs-offset-2">CROCHET</h2>
+                                <h2 className="titile col-xs-offset-2">SEW IN</h2>
                             </div>
                             <img src={process.env.PUBLIC_URL+"/images/color.jpg"} className="img-responsive" alt="Colour" /> </div>
                         </div>
                         <div className="row wow fadeInUp">
                             <div className="col-sm-12 col-md-7 col-lg-7 col-padright-none">
                                 <div className="subtitle">
-                                    <h2 className="titile col-xs-offset-1">OTHERS</h2>
+                                    <h2 className="titile col-xs-offset-1">HAIR STYLING</h2>
                                 </div>
                                 <img src={process.env.PUBLIC_URL+"/images/style.jpg"} className="img-responsive" alt="Style"/> </div>
                                 <div className="col-sm-12 col-md-5 col-lg-5 col-padleft-none">
@@ -104,23 +125,7 @@ const Services = (props) => (
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Bridal HairStyling</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Natural Hair Updo</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Hair Accessories</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Pixie Cut</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Custom Wigs</td>
+                                                <td>Natural Hair Updos</td>
                                                 <td></td>
                                             </tr>
                                         </tbody>
