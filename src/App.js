@@ -6,6 +6,7 @@ import Salon from './components/salon';
 import Services from './components/services';
 import Contact from './components/contact';
 import Appointment from './components/appointment';
+import Ourteam from './components/team';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Header />
           <Slider />
           <Salon />
+          <Ourteam />
           <Services />
           <Appointment />
           <Contact />

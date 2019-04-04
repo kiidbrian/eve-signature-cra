@@ -16,7 +16,7 @@ const Header = (props) => {
                                 </div>
                                 <ul className="menu">
                                     <li className="page-scroll"><a href="index.html#salon">The Salon</a></li>
-                                    {/**<li className="page-scroll"><a href="index.html#ourteam">Meet our team</a></li>**/}
+                                    <li className="page-scroll"><a href="index.html#ourteam">Meet our team</a></li>
                                     <li className="page-scroll"><a href="index.html#services">Our Services</a></li>
                                     <li className="page-scroll"><a href="index.html#appoinment">appointment</a></li>
                                     <li className="page-scroll"><a href="index.html#promotions">Promotions</a></li>
