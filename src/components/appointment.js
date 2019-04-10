@@ -74,7 +74,7 @@ const Appointment = (props) => (
   </section>
 
 
-  <section className="excellence wow fadeInUp">
+  {/**<section className="excellence wow fadeInUp">
     <div id="parallax-2" className="parallax fixed fixed-desktop">
       <div className="container">
         <div className="row">
@@ -86,7 +86,7 @@ const Appointment = (props) => (
         <div className="clearfix"></div>
       </div>
     </div>
-  </section>
+</section>**/}
   </React.Fragment>
 );
 
