@@ -21,7 +21,7 @@ const Ourteam = (props) => (
                                 </div>
                             </div>
                             <div className="team">
-                                <h3>Evelyn</h3>
+                                <h3>Eve_thehairstylist</h3>
                             </div>
                         </div>
 

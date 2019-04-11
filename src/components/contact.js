@@ -30,7 +30,7 @@ const Contact = (props) => (
                 <div className="col-sm-12 col-md-4 col-lg-4 pull-right">
                     <div id="ContactSuccessMessage"></div>
                     <div id="ContactErrorMessage"></div>
-                    <form name="ContactForm" id="ContactForm" method="post">
+                    {/**<form name="ContactForm" id="ContactForm" method="post">
                         <div className="form-group pull-left">
                             <input type="text" className="form-control required" name="ContactFullName" id="ContactFullName" placeholder="Name"  />
                         </div>
@@ -47,10 +47,10 @@ const Contact = (props) => (
                                 <textarea placeholder="Description" name="ContactDescription" id="ContactDescription" className="form-control"></textarea>
                             </div>
                         <button type="submit" className="btn btn-default" value="Submit" >SUBMIT</button>
-                    </form>
-                <div className="coypright">
-                    <p>&copy; {new Date().getFullYear()}</p>
-                </div>
+                    </form>**/}
+            </div>
+            <div className="coypright" style={{textAlign:'center'}}>
+                <p>&copy; {new Date().getFullYear()}</p>
             </div>
         </div>
     </div>

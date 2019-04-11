@@ -16,8 +16,8 @@ class App extends Component {
         <div id="page">
           <Header />
           <Slider />
-          <Salon />
           <Ourteam />
+          <Salon />
           <Services />
           <Appointment />
           <Contact />

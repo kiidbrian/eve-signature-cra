@@ -62,7 +62,7 @@ const Services = (props) => (
                         <div className="subtitle">
                             <h2 className="color">SEW INS</h2>
                         </div>
-                        <img src={process.env.PUBLIC_URL+"/images/big-load3.jpeg"} className="img-responsive" alt="Colour" /> </div>
+                        <img src={process.env.PUBLIC_URL+"/images/eve4.jpg"} className="img-responsive" alt="Colour" /> </div>
                         <div className="col-sm-12 col-md-5 col-lg-5 col-padright-none">
                             <table className="table table-bordered table-striped">
                                 <thead>
@@ -92,7 +92,7 @@ const Services = (props) => (
                             <div className="subtitle">
                                 <h2 className="titile col-xs-offset-2">SEW IN</h2>
                             </div>
-                            <img src={process.env.PUBLIC_URL+"/images/big-load3.jpeg"} className="img-responsive" alt="Colour" /> </div>
+                            <img src={process.env.PUBLIC_URL+"/images/eve4.jpg"} className="img-responsive" alt="Colour" /> </div>
                         </div>
                         <div className="row wow fadeInUp">
                             <div className="col-sm-12 col-md-7 col-lg-7 col-padright-none">
