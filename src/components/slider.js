@@ -35,8 +35,8 @@ const Slider = (props) => (
                 <div className="row">
                     <div className="col-lg-11 pull-right">
                         <div className="sliderarrow">
-                            <a className="left rev-leftarrow">Left</a>
-                            <a className="right rev-rightarrow">Right</a>
+                            <a className="left rev-leftarrow" href="a">Left</a>
+                            <a className="right rev-rightarrow" href="s">Right</a>
                         </div>
                         <div className="titile-bg">
                             <h1></h1>

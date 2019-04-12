@@ -7,6 +7,7 @@ import Services from './components/services';
 import Contact from './components/contact';
 import Appointment from './components/appointment';
 import Ourteam from './components/team';
+const $ = window.$;
 
 class App extends Component {
   render() {
@@ -28,7 +29,15 @@ class App extends Component {
   }
 
   componentDidMount() {
-    
+    // $.getScript(process.env.PUBLIC_URL + 'js/revoluation/jquery.themepunch.tools.min.js');
+    // $.getScript(process.env.PUBLIC_URL + 'js/revoluation/jquery.themepunch.revolution.min.js');
+
+    // $.getScript(process.env.PUBLIC_URL + 'js/revoluation/revolution.extension.layeranimation.min.js');
+    // $.getScript(process.env.PUBLIC_URL + 'js/revoluation/revolution.extension.migration.min.js');
+    // $.getScript(process.env.PUBLIC_URL + 'js/revoluation/revolution.extension.navigation.min.js');
+    // $.getScript(process.env.PUBLIC_URL + 'js/revoluation/revolution.extension.parallax.min.js');
+    // $.getScript(process.env.PUBLIC_URL + 'js/revoluation/revolution.extension.slideanims.min.js');
+    // $.getScript(process.env.PUBLIC_URL + 'js/revoluation/revoluationfunction.js');
   }
 }
 
