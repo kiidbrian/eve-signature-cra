@@ -17,7 +17,7 @@ class App extends Component {
           <Header />
           <Slider />
           <Ourteam />
-          <Salon />
+          {/*<Salon />*/}
           <Services />
           <Appointment />
           <Contact />

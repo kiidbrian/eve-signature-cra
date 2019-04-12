@@ -5,7 +5,7 @@ const Ourteam = (props) => (
         <div className="container">
             <div className="row">
                 <div className="col-sm-12 col-md-4 col-lg-4">
-                    <h2>Meet the Team</h2>
+                    <h2>Meet Evelyn</h2>
                     <div className="ourteamd">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus. Nullam non neque eros. Pellentesque nec vulputate eros.</p>
                     </div>

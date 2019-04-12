@@ -30,27 +30,16 @@ const Contact = (props) => (
                 <div className="col-sm-12 col-md-4 col-lg-4 pull-right">
                     <div id="ContactSuccessMessage"></div>
                     <div id="ContactErrorMessage"></div>
-                    {/**<form name="ContactForm" id="ContactForm" method="post">
-                        <div className="form-group pull-left">
-                            <input type="text" className="form-control required" name="ContactFullName" id="ContactFullName" placeholder="Name"  />
+                    <form method="post" style={{color: "#FFF", lineHeight: 4}}>
+                        <label className="pull-left" style={{textDecoration: 'underline'}}>Working Days and Hours</label>
+                        <p className="pull-left" style={{marginBottom: '7px'}}>Sundays and Mondays: CLOSED</p>
+                        <p className="pull-left" style={{marginBottom: '7px'}}>Tuesdays - Thursday: 9am - 5pm</p>
+                        <p className="pull-left" style={{marginBottom: '7px'}}>Friday & Saturday: 8am - 6pm</p>
+
+                        <div className="coypright">
+                            <p>&copy; {new Date().getFullYear()}</p>
                         </div>
-                            <div className="form-group pull-left marright0">
-                                <input type="email" className="form-control required email" name="ContactEmail" id="ContactEmail" placeholder="Email Id" />
-                            </div>
-                            <div className="form-group pull-left">
-                                <input type="text" className="form-control required number" name="ContactNumber" id="ContactNumber" placeholder="Contact Number"  />
-                            </div>
-                            <div className="form-group pull-left marright0">
-                                <input type="text" className="form-control required" name="ContactCompanyName" id="ContactCompanyName" placeholder="Company Name"/>
-                            </div>
-                            <div className="textarea pull-left">
-                                <textarea placeholder="Description" name="ContactDescription" id="ContactDescription" className="form-control"></textarea>
-                            </div>
-                        <button type="submit" className="btn btn-default" value="Submit" >SUBMIT</button>
-                    </form>**/}
-            </div>
-            <div className="coypright" style={{textAlign:'center'}}>
-                <p>&copy; {new Date().getFullYear()}</p>
+                    </form>
             </div>
         </div>
     </div>
