@@ -45,9 +45,6 @@ const Services = (props) => (
                                 <td>Kinky Twist</td>
                             </tr>
                             <tr>
-                                <td>Crochet</td>
-                            </tr>
-                            <tr>
                                 <td>Bantu Knots</td>
                             </tr>
                         </tbody>
@@ -82,8 +79,6 @@ const Services = (props) => (
                             </tr>
                             <tr>
                                 <td className="bigw">Pixie cut</td>
-                            </tr><tr>
-                                <td className="bigw">Custom Wigs</td>
                             </tr>
                         </tbody>
                     </table>
@@ -99,7 +94,7 @@ const Services = (props) => (
                     <div className="subtitle">
                         <h2 className="titile col-xs-offset-1">CROCHET</h2>
                     </div>
-                    <img src={process.env.PUBLIC_URL + "/images/eve5.jpg"} className="img-responsive" alt="Style" /> </div>
+                    <img src={process.env.PUBLIC_URL + "/images/eve6.jpg"} className="img-responsive" alt="Style" /> </div>
                 <div className="col-sm-12 col-md-5 col-lg-5 col-padleft-none">
                     <table className="table table-bordered table-striped">
                         <thead>
@@ -123,7 +118,7 @@ const Services = (props) => (
                     <div className="subtitle">
                         <h2 className="color">CUSTOM WIGS</h2>
                     </div>
-                    <img src={process.env.PUBLIC_URL + "/images/eve6.jpg"} className="img-responsive" alt="Colour" /> </div>
+                    <img src={process.env.PUBLIC_URL + "/images/eve5.jpg"} className="img-responsive" alt="Colour" /> </div>
                 <div className="col-sm-12 col-md-5 col-lg-5 col-padright-none">
                     <table className="table table-bordered table-striped">
                         <thead>
@@ -142,7 +137,7 @@ const Services = (props) => (
                     <div className="subtitle">
                         <h2 className="titile col-xs-offset-2">CUSTOM WIGS</h2>
                     </div>
-                    <img src={process.env.PUBLIC_URL + "/images/eve6.jpg"} className="img-responsive" alt="Colour" /> </div>
+                    <img src={process.env.PUBLIC_URL + "/images/eve5.jpg"} className="img-responsive" alt="Colour" /> </div>
             </div>
         </div>
     </section>
