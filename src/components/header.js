@@ -16,13 +16,13 @@ const Header = (props) => {
                                     <div className="mm-toggle"> <i className="icon-menu"><img src={process.env.PUBLIC_URL + "/images/menu-icon.png"} alt="Menu" /></i></div>
                                 </div>
                                 <ul className="menu">
-                                    <li className="page-scroll"><a href="#salon">The Salon</a></li>
-                                    <li className="page-scroll"><a href="#ourteam">Chief Stylist</a></li>
-                                    <li className="page-scroll"><a href="#services">Our Services</a></li>
-                                    <li className="page-scroll"><a href="#appoinment">appointment</a></li>
+                                    <li className="page-scroll"><a href="/">The Salon</a></li>
+                                    <li className="page-scroll"><a href="/#ourteam">Chief Stylist</a></li>
+                                    <li className="page-scroll"><a href="/#services">Our Services</a></li>
+                                    <li className="page-scroll"><a href="/#appoinment">appointment</a></li>
                                     <li className=""><Link to="/works">Our Works</Link></li>
                                     <li><Link to="/reviews">Reviews</Link></li>
-                                    <li className="page-scroll"><a href="#contact">Contact</a></li>
+                                    <li className="page-scroll"><a href="/#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
