@@ -42,7 +42,14 @@ const Slider = (props) => (
                             <h1></h1>
                         </div>
                         <div className="white-bg">
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>
+                            <p> Eve's Hair represents quintessential and elegance in hair styling.
+                            In the beauty industry, there is always something new to learn, be it a
+                            new formulation, a new technique or a better way to retain your clientele. <br/>
+                            On a daily basis, Eve's Hair Signature deals with the science and art of hair,
+                            how to manage their clientele, their budget, their time, their retail, all the while
+                            looking fabulous without a hair out of place! Eve's Hair Signature is here to grow as a
+                            person, as an artist and by God's grace, consistency and firmness of purpose, a thriving
+                            business mogul.</p>
                         </div>
                     </div>
                 </div>
